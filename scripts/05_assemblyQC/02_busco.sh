@@ -32,7 +32,7 @@ ASSEMBLIES=($(find ${ASSEMBLYDIR} -name "*fa"))
 GEN=${ASSEMBLIES[$SLURM_ARRAY_TASK_ID]}
 BASE=$(basename ${GEN} ".fa")
 
-DATABASE="/isg/shared/databases/BUSCO/odb10/lineages/actinopterygii_odb10"
+DATABASE="actinopterygii_odb10"
 
 busco \
     -i ${GEN} \

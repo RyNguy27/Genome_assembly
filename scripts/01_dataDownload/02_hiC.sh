@@ -24,3 +24,5 @@ wget -P ${OUTDIR} https://genomeark.s3.amazonaws.com/species/Fundulus_diaphanus/
 wget -P ${OUTDIR} https://genomeark.s3.amazonaws.com/species/Fundulus_diaphanus/fFunDia1/genomic_data/arima/fFunDia1_Banded_Killifish_R2_001.fastq.gz
 wget -P ${OUTDIR} https://genomeark.s3.amazonaws.com/species/Fundulus_diaphanus/fFunDia1/genomic_data/arima/re_bases.txt
 wget -P ${OUTDIR} https://genomeark.s3.amazonaws.com/species/Fundulus_diaphanus/fFunDia1/genomic_data/arima/fFunDia1_hic_stats.yaml
+
+echo "Job Finished"
